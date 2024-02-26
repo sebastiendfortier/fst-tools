@@ -36,8 +36,6 @@
   app_ptr=app_init(0,'ZCROP',VERSION,'',BUILD_TIMESTAMP)
   call app_start()
 
-  integer, parameter :: app_status = 1
-
 
   mode = non_defini
   ipos = 0

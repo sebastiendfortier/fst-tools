@@ -31,7 +31,7 @@ if (NOT rmn_FOUND)
    find_package(rmn ${rmn_REQ_VERSION} REQUIRED)
 endif()
 
-add_subdirectory(src/bemol)
+# add_subdirectory(src/bemol)
 add_subdirectory(src/editfst)
 add_subdirectory(src/fstcomp)
 add_subdirectory(src/fstcompress)
