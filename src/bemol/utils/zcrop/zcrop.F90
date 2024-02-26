@@ -36,6 +36,9 @@
   app_ptr=app_init(0,'ZCROP',VERSION,'',BUILD_TIMESTAMP)
   call app_start()
 
+  integer, parameter :: app_status = <some_value>
+
+
   mode = non_defini
   ipos = 0
   call ccard(cle,def,val, 13, ipos)
